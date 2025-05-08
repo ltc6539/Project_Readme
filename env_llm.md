@@ -20,11 +20,8 @@
 ## 整体架构
 
 <div align="center">
-  <img src="flowchar_zh_v3.png" width="700" alt="环保系统架构图" />
+  <img src="docs/flowchar_zh_v3.png" width="700" alt="环保系统架构图" />
 </div>
-
-Made by:
-[Lucid](https://lucid.app/)
 
 ## 依赖管理
 
@@ -137,14 +134,14 @@ OPENAI_KEY = xxxxxxxxxxx
   ```
 - **运行界面：**
 <div align="center">
-<img src="docs/demo/运行程序1.png" width="700" alt="运行对话示意图" />
+<img src="docs/运行程序1.png" width="700" alt="运行对话示意图" />
 </div>
 
 - 此时输入你的问题，目前该系统只支持环评，排污许可和固危废类问题
 
 - **预计输出：**
 <div align="center">
-<img src="docs/demo/运行程序2.png" width="700" alt="运行对话示意图" />
+<img src="docs/运行程序2.png" width="700" alt="运行对话示意图" />
 </div>
 
 ---
@@ -162,4 +159,4 @@ OPENAI_KEY = xxxxxxxxxxx
 - **输入** ：储存 .txt 格式问答文件的文件夹
 - **输出** ：.xlsx 文件
 - 运行时需根据实际评估的文件修改 138 行的测评文件夹 `directory = 'xxx'`及 178 行的输出文件`output_path = 'xxx'`
-- **详细标准：** 该模块与业务中的问答模块并无关系，故不在此处展开论述，若想了解详情可参考 [`exp/water_26_50/water_26.md`](exp/water_26_50/water_26.md)
+- **详细标准：** 该模块与业务中的问答模块并无关系，故不在此处展开论述，若想了解详情可参考 [`evaluation.md`](evaluation.md)
